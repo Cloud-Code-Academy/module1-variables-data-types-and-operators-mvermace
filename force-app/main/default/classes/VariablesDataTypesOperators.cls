@@ -32,14 +32,13 @@ public with sharing class VariablesDataTypesOperators {
      * @return The sum of the two numbers, or null if either number is null.
      */
     public static Integer addition(Integer a, Integer b) {  
-        //Add additional check to see if sum may be > than max 
         if(a == null || b == null){
             return null;
         } else {
             return a + b;
         }
+        
     }
-    // isThis > 10 ? True : False;
 
     /**
      * Question 2
